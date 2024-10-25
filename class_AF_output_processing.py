@@ -3,10 +3,10 @@ import sys
 import json
 import math
 import warnings
+from pathlib import Path
 import pandas as pd
 import numpy as np
 from pymol import cmd
-from pathlib import Path
 import matplotlib.pyplot as plt
 from UtilityFunctions import *
 from postprocess_pdbs import write_filter_pdb
